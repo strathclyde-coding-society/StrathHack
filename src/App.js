@@ -14,8 +14,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Page/>} />
-        <Route path="/industry" element={<Industry/>} />
+        <Route path="/StrathHack/" element={<Page/>} />
+        <Route path="/StrathHack/industry" element={<Industry/>} />
         <Route path="/403" element={<Error_403/>} />
         <Route path="*" element={<Error_404/>}/>
         <Route path="/500" element={<Error_500/>} />
