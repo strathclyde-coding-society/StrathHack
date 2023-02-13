@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/strathhack/static/css/main.655c1552.css",
+    "main.js": "/strathhack/static/js/main.fb125c30.js",
+    "static/media/bootstrap-icons.woff?": "/strathhack/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/strathhack/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/logo.png": "/strathhack/static/media/logo.b9064bee94083df4cba4.png",
+    "static/media/sample_img.png": "/strathhack/static/media/sample_img.9ad1cf7e3c223ca33676.png",
+    "static/media/sample_img.jpg": "/strathhack/static/media/sample_img.ee9281065d21a6a6efa8.jpg",
+    "index.html": "/strathhack/index.html",
+    "main.655c1552.css.map": "/strathhack/static/css/main.655c1552.css.map",
+    "main.fb125c30.js.map": "/strathhack/static/js/main.fb125c30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.655c1552.css",
+    "static/js/main.fb125c30.js"
+  ]
+}
