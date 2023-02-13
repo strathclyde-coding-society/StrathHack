@@ -17,7 +17,7 @@ function Sponsors() {
             props.sponsors.map(group => {
                 return (
                     <div className="px-8 py-6">
-                        <h2 className="text-lg sm:text-xl text-slate-50 font-medium title-font mb-2">{group.tier} ---- underline me pls</h2>
+                        <h2 className="text-lg sm:text-xl text-slate-50 font-medium title-font mb-2 underline underline-offset-4 ">{group.tier} </h2>
                         <div className="grid grid-cols-2">   {/* I have set this as a grid, feel free to convert to your own format*/}               
                         {group.sponsors.map(sponsor => {
                             return(
