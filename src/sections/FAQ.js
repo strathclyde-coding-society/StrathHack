@@ -1,12 +1,19 @@
 import React from 'react';
 
+
+// This is the most hack way of doing this, but in a way, it is inline with a hackathon's spirit :) - Hamada 
+// <a href=\"LINK\" style=\"color: rgb(79 70 229);\"> TEXT</a>
+// <a href=\"https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl\" style=\"color: rgb(79 70 229);\"> very beginner friendly</a>
+// [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl)
+
+
 const questions = [
-    {question: "What is a hackathon?", answer:"A hackathon is an invention marathon. Students come together to build cool software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl)."},
+    {question: "What is a hackathon?", answer:"A hackathon is an invention marathon. Students come together to build cool software & hardware hacks over 24-48 hours. It's <a href=\"https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl\" style=\"color: rgb(79 70 229);\"> very beginner friendly</a>."},
     {question: "How much does it cost?", answer:"Nothing. Attending a hackathon is free."},
     {question: "Do I need to be a student to attend?", answer:"Yes. Only students who are currently enrolled at a college/university or have graduated within the past 12 months are eligible to attend."},
-    {question: "Where is the event?", answer:"The event is being hosted at <a href=\"https://goo.gl/maps/d8fQGJJtQh8GFHwNA\"> University of Strathclyde</a>>"},
-    {question: "What is Major League Hacking?", answer:"Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe. We work with over 200 Member Events and empower over 70,000 students every year."},
-    {question: "Is there a code of conduct?", answer:" Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf)."},
+    {question: "Where is the event?", answer:"The event is being hosted at <a href=\"https://goo.gl/maps/d8fQGJJtQh8GFHwNA\" style=\"color: rgb(79 70 229);\"> University of Strathclyde</a>"},
+    {question: "What is Major League Hacking?", answer:"Major League Hacking is <a href=\"https://mlh.io\" style=\"color: rgb(79 70 229);\"> the official student hackathon league</a> in North America & Europe. We work with over 200 Member Events and empower over 70,000 students every year."},
+    {question: "Is there a code of conduct?", answer:" Yes there is. We enforce it very strongly. You can <a href=\"https://static.mlh.io/docs/mlh-code-of-conduct.pdf\" style=\"color: rgb(79 70 229);\"> find it here.</a>"},
 ];
 
 
@@ -17,10 +24,8 @@ function FAQ() {
                 return (
                     <li className="mb-10 ml-4">
                         <div className="absolute w-3 h-3 bg-indigo-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600"></div>
-                        {/* <time className="mb-1 text-sm font-normal leading-none text-slate-400">{question.date} : {question.time}</time> */}
                         <h3 className="text-lg font-semibold text-slate-50">{question.question}</h3>
-                        <p className="mb-4 text-base font-normal text-slate-400">{question.answer}</p>
-                        {/* <Button content="Learn more" href={question.href} size="small"/> */}
+                        <p className="mb-4 text-base font-normal text-slate-400" dangerouslySetInnerHTML={{__html:(question.answer)}}/>
                     </li>
                 )
             })
