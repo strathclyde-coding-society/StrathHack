@@ -1,6 +1,6 @@
 {   "Hamada Alosh": {
         "description": "Functional programming 🙏🙏🙏🙏",
-        "image": "StrathHack/assests/members/HamadaA.jpg",
+        "image": "assests/members/HamadaA.jpg",
         "links": [
             {
                 "linkedin": "https://www.linkedin.com/in/hamada-alosh/",
@@ -11,7 +11,7 @@
     },
     "Ayushi Badiyani": {
         "description": "A 3rd year Computing Science Student with a passion for data science",
-        "image": "StrathHack/assests/members/AyushiB.jpg",
+        "image": "assests/members/AyushiB.jpg",
         "links": [
             {
                 "linkedin": "https://www.linkedin.com/in/ayushi-badiyani/"
@@ -21,7 +21,7 @@
     },
     "Cameron Bell": {
         "description": "Pretties boy of them all.",
-        "image": "StrathHack/assests/members/CameronB.jpg",
+        "image": "assests/members/CameronB.jpg",
         "links": [
             {
                 "linkedin": "https://www.linkedin.com/in/bell-cameron/"
@@ -31,7 +31,7 @@
     },
     "Charles Watson": {
         "description": "LOVES FOOTBALL",
-        "image": "StrathHack/assests/members/CharlesW.jpg",
+        "image": "assests/members/CharlesW.jpg",
         "links": [
             {
                 "linkedin": "https://www.linkedin.com/in/charles-watson-3b7903189/"
@@ -41,7 +41,7 @@
     },
     "Kelechi Nwokeabia": {
         "description": "The support of the group",
-        "image": "StrathHack/assests/members/KelechiN.jpg",
+        "image": "assests/members/KelechiN.jpg",
         "links": [
             {
                 "linkedin": "https://www.linkedin.com/in/kelechi-nwokeabia-657013247/"
@@ -52,7 +52,7 @@
     
     "Shelly Master": {
         "description": "A Cyber Security Graduate.",
-        "image": "StrathHack/assests/members/ShellyM.jpg",
+        "image": "assests/members/ShellyM.jpg",
         "links": [
             {
                 "linkedin": "https://www.linkedin.com/in/shelly-master-47b89b185/"
@@ -62,7 +62,7 @@
     },
     "Sophie McCartney": {
         "description": "A UI/UX enthusiast",
-        "image": "StrathHack/assests/members/SophieM.jpg",
+        "image": "assests/members/SophieM.jpg",
         "links": [
             {
                 "linkedin": "https://www.linkedin.com/in/sophie-mccartney/",

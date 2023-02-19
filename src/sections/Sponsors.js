@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../assests/events/sample_img.jpg'
+import image from '../assests/events/StrathUnion.png'
 import Button from '../components/Button';
 
 const sponsorGroups = [
@@ -44,7 +44,7 @@ function Sponsors() {
                             <p className="md:w-2/3 w-1/3 mx-auto leading-relaxed text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita necessitatibus inventore ipsa, consequatur, vel libero voluptates nulla odio culpa quasi ratione. Odit minima natus eum perspiciatis mollitia molestiae iure.</p>
                         </div> */}
                         <div className="mb-20">
-                            <ol className="relative  border-indigo-600">                  
+                            <ol className="relative border-1 border-indigo-600">                  
                             <GridSponsors sponsors={sponsorGroups}/>
                             </ol>
                         </div>
