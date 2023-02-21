@@ -23,7 +23,7 @@ function About() {
                                         <p>200 people</p>
                                     </div>
                                     <div className="px-5 m-3">
-                                        <a href="https://www.linkedin.com/company/strathcoding/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin ml-1 px-1"></i></a>
+                                        <a href="https://www.linkedin.com/company/strathcoding/" target="_blank" rel="noopener noreferrer"><i className="bi bi-people ml-1 px-1"></i></a>
                                         <p>50 teams</p>
                                     </div>
                                 </div>
