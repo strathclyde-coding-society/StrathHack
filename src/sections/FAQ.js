@@ -25,7 +25,7 @@ function FAQ() {
                     <li className="mb-10 ml-4">
                         <div className="absolute w-3 h-3 bg-indigo-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600"></div>
                         <h3 className="text-lg font-semibold text-slate-50">{question.question}</h3>
-                        <p className="mb-4 text-base font-normal text-slate-400" dangerouslySetInnerHTML={{__html:(question.answer)}}/>
+                        <p className="text-sm sm:text-base break-words pr-2 mt-2 w-52 sm:w-full leading-relaxed text-slate-400" dangerouslySetInnerHTML={{__html:(question.answer)}}/>
                     </li>
                 )
             })
@@ -42,7 +42,7 @@ function FAQ() {
                             <h1 className="text-2xl font-medium title-font mb-4 text-slate-50">Frequently Asked Questions</h1>
                             {/* <p className="md:w-2/3 w-1/3 mx-auto leading-relaxed text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita necessitatibus inventore ipsa, consequatur, vel libero voluptates nulla odio culpa quasi ratione. Odit minima natus eum perspiciatis mollitia molestiae iure.</p> */}
                         </div>
-                        <div className="mb-20">
+                        <div className="flex flex-col place-items-center mb-20">
                             <ol className="relative border-l border-indigo-600">                  
                                 <Questions />
                             </ol>
