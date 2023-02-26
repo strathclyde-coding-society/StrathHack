@@ -30,19 +30,18 @@ function Schedule() {
                             <h1 className="text-2xl font-medium title-font mb-4 text-slate-50">Schedule</h1>
                             {/* <p className="md:w-2/3 w-1/3 mx-auto leading-relaxed text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita necessitatibus inventore ipsa, consequatur, vel libero voluptates nulla odio culpa quasi ratione. Odit minima natus eum perspiciatis mollitia molestiae iure.</p> */}
                         </div>
-                        <div className="mb-20 grid grid-cols-2">
-                            <div className="col-span-1">
-                            <p>Day 1</p>
-                            <ol className="relative border-l border-indigo-600">                  
-                                <Timeline events = {day1events}/>
-                            </ol>
+                        <div className="mb-20 columns-1 sm:columns-2">
+                            <div className="flex flex-col place-items-center p-5">
+                                <p>Day 1</p>
+                                <ol className="relative border-l border-indigo-600">                  
+                                    <Timeline events = {day1events}/>
+                                </ol>
                             </div>
-
-                            <div className="col-span-1">
-                            <p>Day 2</p>
-                            <ol className="relative border-l border-indigo-600">                  
-                                <Timeline events = {day1events}/>
-                            </ol>
+                            <div className="flex flex-col place-items-center p-5">
+                                <p>Day 2</p>
+                                <ol className="relative border-l border-indigo-600">                  
+                                    <Timeline events = {day1events}/>
+                                </ol>
                             </div>
                         </div>
                     </div>
