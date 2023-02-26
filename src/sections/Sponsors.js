@@ -19,13 +19,13 @@ function Sponsors() {
                     <div className="px-8 py-6">
                         <h2 className="text-lg sm:text-xl text-slate-50 font-medium title-font mb-2 underline underline-offset-4 ">{group.tier} </h2>
                         <div className="grid sm:grid-cols-2">   {/* I have set this as a grid, feel free to convert to your own format*/}               
-                        {group.sponsors.map(sponsor => {
-                            return(
-                                <div className= "col-span-1 m-1">
-                                <a className="sm:w-1/2" href={sponsor.href}><img className="flex-shrink-0 rounded-lg w-62 h-36 sm:w-96 sm:h-48 object-cover object-center mb-0" src={image}/></a>
-                                </div>
+                            {group.sponsors.map(sponsor => {
+                                return(
+                                    <div className="col-span-1 m-1">
+                                        <a className="sm:w-1/2" href={sponsor.href}><img className="flex-shrink-0 rounded-lg w-full h-full sm:w-96 sm:h-48 object-cover object-center mb-0" src={image}/></a>
+                                    </div>
                                 )
-                        })}
+                            })}
                         </div>
                     </div>      
                 )
@@ -44,8 +44,8 @@ function Sponsors() {
                             <p className="md:w-2/3 w-1/3 mx-auto leading-relaxed text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita necessitatibus inventore ipsa, consequatur, vel libero voluptates nulla odio culpa quasi ratione. Odit minima natus eum perspiciatis mollitia molestiae iure.</p>
                         </div> */}
                         <div className="mb-20">
-                            <ol className="relative border-1 border-indigo-600">                  
-                            <GridSponsors sponsors={sponsorGroups}/>
+                            <ol className="flex flex-col place-items-center">                  
+                                <GridSponsors sponsors={sponsorGroups}/>
                             </ol>
                         </div>
                     </div>
