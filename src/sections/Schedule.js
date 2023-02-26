@@ -32,13 +32,13 @@ function Schedule() {
                         </div>
                         <div className="mb-20 columns-1 sm:columns-2">
                             <div className="flex flex-col place-items-center p-5">
-                                <p>Day 1</p>
+                                <h1 className="text-xl font-medium title-font mb-4 text-slate-50">Day 1</h1>
                                 <ol className="relative border-l border-indigo-600">                  
                                     <Timeline events = {day1events}/>
                                 </ol>
                             </div>
                             <div className="flex flex-col place-items-center p-5">
-                                <p>Day 2</p>
+                            <h1 className="text-xl font-medium title-font mb-4 text-slate-50">Day 2</h1>
                                 <ol className="relative border-l border-indigo-600">                  
                                     <Timeline events = {day1events}/>
                                 </ol>
