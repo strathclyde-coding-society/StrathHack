@@ -10,20 +10,24 @@ function About() {
                             <div>
                                 <h2 className="text-xs text-indigo-600 tracking-widest font-medium title-font mb-1">The Strathclyde Coding Society's first hackathon</h2>
                                 <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-slate-50">Why Join us</h1>
-                                <p className="mt-6 leading-relaxed text-slate-400 md:text-base text-sm">Write paragraph about why to join</p>
+                                <p className="mt-6 mx-1  leading-relaxed text-slate-400 md:text-base text-sm  lg:w-[900px]">StrathHack will be a great opportunity for you to improve your coding skills while having fun and meeting new people, students and industry alike! </p>
                                 <p className="mt-6 leading-relaxed text-slate-400 md:text-base text-sm"></p>
-                                <p className="mt-4 leading-relaxed text-slate-400 md:text-base text-sm"> Social Icons will be replaced with expected member/team/years count</p>
-                                <div className="flex flex-col sm:flex-row sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start pt-3 text-5xl text-indigo-600">
-                                    <div className="px-5 m-3">
+                                {/* <p className="mt-4 leading-relaxed text-slate-400 md:text-base text-sm"> Social Icons will be replaced with expected member/team/years count</p> */}
+                                <div className="flex flex-col sm:flex-row lg:items-center sm:ml-auto sm:mt-0 mt-2 justify-center pt-3 text-5xl text-indigo-600">
+                                    {/* <div className="px-5 m-3">
                                         <a href="https://discord.com/invite/zbPVc68kX7" target="_blank" rel="noopener noreferrer"><i className="bi bi-calendar ml-1 px-1"></i></a>
                                         <p>0 years :(</p>
-                                    </div>
+                                    </div> */}
                                     <div className="px-5 m-3">
-                                        <a href="https://www.instagram.com/strathcoding/" target="_blank" rel="noopener noreferrer"><i className="bi bi-person ml-1 px-1"></i></a>
+                                        {/* <a href="https://www.instagram.com/strathcoding/" target="_blank" rel="noopener noreferrer"> */}
+                                            <i className="bi bi-person ml-1 px-1"></i>
+                                            {/* </a> */}
                                         <p>200 people</p>
                                     </div>
                                     <div className="px-5 m-3">
-                                        <a href="https://www.linkedin.com/company/strathcoding/" target="_blank" rel="noopener noreferrer"><i className="bi bi-people ml-1 px-1"></i></a>
+                                        {/* <a href="https://www.linkedin.com/company/strathcoding/" target="_blank" rel="noopener noreferrer"> */}
+                                            <i className="bi bi-people ml-1 px-1"></i>
+                                            {/* </a> */}
                                         <p>50 teams</p>
                                     </div>
                                 </div>
