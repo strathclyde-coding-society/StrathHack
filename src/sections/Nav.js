@@ -19,7 +19,7 @@ function Nav() {
                     <img className="h-[4.5rem] w-[4.5rem] mr-3" src={logo} alt="logo"/>
                 </a>
                 <div className="flex md:order-2 lg:mt-0">
-                    <Button content="Apply" href="https://my.mlh.io/oauth/authorize?client_id=0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee&redirect_uri=https://mlh.github.io/mlh-hackathon-boilerplate/success.html&response_type=token" newPage="True" size="medium"/>
+                    <Button content="Cats!" href="https://bobcat33.github.io/RandomCats/" newPage="True" size="medium"/>
                     {/* Hamburger start */}
                     <button className="inline-flex items-center p-2 text-sm text-gray-400 rounded-lg md:hidden ml-2" type="button" onClick={toggle}>
                         <span className="sr-only">Open main menu</span>
