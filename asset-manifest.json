@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/StrathHack/static/css/main.5a866291.css",
-    "main.js": "/StrathHack/static/js/main.ddc2f56e.js",
+    "main.css": "/StrathHack/static/css/main.ec82a79e.css",
+    "main.js": "/StrathHack/static/js/main.fee5ec48.js",
     "static/media/bootstrap-icons.woff?": "/StrathHack/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/StrathHack/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/logo.png": "/StrathHack/static/media/logo.b9064bee94083df4cba4.png",
-    "static/media/sample_img.jpg": "/StrathHack/static/media/sample_img.ee9281065d21a6a6efa8.jpg",
+    "static/media/StrathUnion.png": "/StrathHack/static/media/StrathUnion.7320df5a295cccf37f4f.png",
     "index.html": "/StrathHack/index.html",
-    "main.5a866291.css.map": "/StrathHack/static/css/main.5a866291.css.map",
-    "main.ddc2f56e.js.map": "/StrathHack/static/js/main.ddc2f56e.js.map"
+    "main.ec82a79e.css.map": "/StrathHack/static/css/main.ec82a79e.css.map",
+    "main.fee5ec48.js.map": "/StrathHack/static/js/main.fee5ec48.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a866291.css",
-    "static/js/main.ddc2f56e.js"
+    "static/css/main.ec82a79e.css",
+    "static/js/main.fee5ec48.js"
   ]
 }
