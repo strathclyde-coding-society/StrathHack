@@ -22,35 +22,34 @@ function FAQ() {
         return (
             questions.map(question => {
                 return (
-                    <li className="mb-10 ml-4">
-                        <div className="absolute w-3 h-3 bg-indigo-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600"></div>
-                        <h3 className="text-lg font-semibold text-slate-50">{question.question}</h3>
-                        <p className="text-sm sm:text-base break-words pr-2 mt-2 w-52 sm:w-full leading-relaxed text-slate-400" dangerouslySetInnerHTML={{__html:(question.answer)}}/>
-                    </li>
+                    <div>
+                        <div className="flex flex-row items-start gap-4">
+                            <span className="shrink-0 rounded-lg bg-indigo-600 p-4">
+                                <i className="bi bi-question-lg text-slate-50"></i>
+                            </span>
+                            <div>
+                                <h2 className="text-lg leading-tight text-slate-50 pt-1 font-bold">Lorem, ipsum dolor.</h2>
+                                <p className="mt-1 text-sm text-slate-400" dangerouslySetInnerHTML={{__html:(question.answer)}} />
+                            </div>
+                        </div>
+                    </div>
                 )
             })
         );
     }
 
     return (
-        <>
-            <section id="FAQ" className="bg-black w-screen overflow-x-hidden flex flex-col items-center">
-                <div className="flex flex-col justify-center h-full w-[60rem] gap-2">
-                    <div className="container px-5 py-24 mx-auto">
-                        <div className="flex flex-col text-center w-full mb-20">
-                            <h2 className="text-xs text-indigo-600 tracking-widest font-medium title-font mb-1">If you have any more questions contact us!</h2>
-                            <h1 className="text-2xl font-medium title-font mb-4 text-slate-50">Frequently Asked Questions</h1>
-                            {/* <p className="md:w-2/3 w-1/3 mx-auto leading-relaxed text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita necessitatibus inventore ipsa, consequatur, vel libero voluptates nulla odio culpa quasi ratione. Odit minima natus eum perspiciatis mollitia molestiae iure.</p> */}
-                        </div>
-                        <div className="flex flex-col place-items-center mb-20">
-                            <ol className="relative border-l border-indigo-600">                  
-                                <Questions />
-                            </ol>
-                        </div>
+        <section id="FAQ" className="bg-black w-screen overflow-x-hidden flex flex-col items-center">
+            <div className="flex flex-col justify-center h-full w-[60rem] gap-2">
+                <div className="container px-5 py-24 mx-auto text-slate-400">
+                    <h2 className="text-3xl font-bold sm:text-4xl text-slate-50">Frequently Asked Questions</h2>
+                    <p className="mt-4 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.</p>
+                    <div className="grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-8">
+                        <Questions />
                     </div>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
   }
   
