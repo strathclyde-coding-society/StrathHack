@@ -28,8 +28,8 @@ function FAQ() {
                                 <i className="bi bi-question-lg text-slate-50"></i>
                             </span>
                             <div>
-                                <h2 className="text-lg leading-tight text-slate-50 pt-1 font-bold">Lorem, ipsum dolor.</h2>
-                                <p className="mt-1 text-sm text-slate-400" dangerouslySetInnerHTML={{__html:(question.answer)}} />
+                                <h2 className="text-lg leading-tight text-slate-50 pt-1 font-bold">{question.question}</h2>
+                                <p className="break-words md:w-52 text-sm sm:text-base pr-2 mt-2 text-slate-400" dangerouslySetInnerHTML={{__html:(question.answer)}} />
                             </div>
                         </div>
                     </div>
@@ -40,11 +40,12 @@ function FAQ() {
 
     return (
         <section id="FAQ" className="bg-black w-screen overflow-x-hidden flex flex-col items-center">
-            <div className="flex flex-col justify-center h-full w-[60rem] gap-2">
+            <div className="flex flex-col justify-center h-full w-10/12 sm:w-[60rem] gap-2">
                 <div className="container px-5 py-24 mx-auto text-slate-400">
-                    <h2 className="text-3xl font-bold sm:text-4xl text-slate-50">Frequently Asked Questions</h2>
-                    <p className="mt-4 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.</p>
-                    <div className="grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-8">
+                    <h2 className="uppercase tracking-wide text-xs text-indigo-600 font-semibold text-center sm:text-left">Lorem, ipsum dolor.</h2>
+                    <h1 className="text-3xl font-bold sm:text-4xl text-slate-50 text-center sm:text-left">Frequently Asked Questions</h1>
+                    <p className="mt-4 text-slate-400 text-center sm:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.</p>
+                    <div className="grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-12">
                         <Questions />
                     </div>
                 </div>

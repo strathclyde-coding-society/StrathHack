@@ -17,7 +17,7 @@ function Sponsors() {
             props.sponsors.map(group => {
                 return (
                     <div className="px-8 py-6">
-                        <h1 className="text-2xl font-medium title-font mb-4 text-slate-50 text-center">{group.tier}</h1>
+                        <h1 className="text-2xl font-bold sm:text-3xl text-slate-50 text-center sm:text-left p-1">{group.tier}</h1>
                         <div className="grid sm:grid-cols-2">   {/* I have set this as a grid, feel free to convert to your own format*/}               
                             {group.sponsors.map(sponsor => {
                                 return(
@@ -43,6 +43,11 @@ function Sponsors() {
                             <h1 className="text-2xl font-medium title-font mb-4 text-slate-50">Sponsors --- Make me bigger and more impactful</h1>
                             <p className="md:w-2/3 w-1/3 mx-auto leading-relaxed text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita necessitatibus inventore ipsa, consequatur, vel libero voluptates nulla odio culpa quasi ratione. Odit minima natus eum perspiciatis mollitia molestiae iure.</p>
                         </div> */}
+                        <div className="flex flex-col w-full mb-20">
+                            <h2 className="uppercase tracking-wide text-xs text-indigo-600 font-semibold text-center sm:text-left">Lorem, ipsum dolor.</h2>
+                            <h1 className="text-3xl font-bold sm:text-4xl text-slate-50 text-center sm:text-left">Sponsors</h1>
+                            <p className="mt-4 text-slate-400 text-center sm:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.</p>
+                        </div>
                         <div className="mb-20">
                             <ol className="flex flex-col place-items-center">                  
                                 <GridSponsors sponsors={sponsorGroups}/>
